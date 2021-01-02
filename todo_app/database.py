@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 # L'url de notre base de donnes
 
-SQLALCHEMY_DATABASE_URL = os.environ.get('DATABASE_URL') or "sqlite:///./data.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./data.db"
 
 # On cree la connection
 engine = create_engine(
