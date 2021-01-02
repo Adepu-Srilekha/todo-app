@@ -1,0 +1,14 @@
+# Env vars
+.env
+
+# Requests HTTP for test my libarry
+requests.http
+
+# vscode config
+.vscode
+
+# python cache
+**/__pycache__/
+
+# database
+data.db
