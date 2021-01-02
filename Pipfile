@@ -12,6 +12,7 @@ jinja2 = "*"
 aiofiles = "*"
 sqlalchemy = "*"
 python-dotenv = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
