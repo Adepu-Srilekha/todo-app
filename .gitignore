@@ -1,6 +1,9 @@
 # Env vars
 .env
 
+# Virtual environnement
+env/
+
 # Requests HTTP for test my libarry
 requests.http
 
